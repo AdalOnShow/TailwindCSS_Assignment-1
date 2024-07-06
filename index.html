@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth" id="darkClass">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TailwindCSS Assignment-1</title>
+  <!-- Tailwind CSS -->
+  <link rel="stylesheet" href="./main.css">
+
+</head>
+
+<body class="font-plusJakarta dark:bg-gray-600 dark:text-white">
+  <!-- Header Section -->
+  <header class="fixed w-full bg-white h-20 px-3 md:px-16 z-10 flex justify-between items-center dark:bg-gray-600">
+    <a href="./index.html" class="p-2 rounded-md bg-white">
+      <img src="./imgs/logo.png" alt="Logo">
+    </a>
+    <nav>
+      <ul class="gap-6 hidden md:flex">
+        <li><a href="#home" class="active">Home</a></li>
+        <li><a href="#about" class="active">About Us</a></li>
+        <li><a href="#upskill" class="active">Upskill</a></li>
+        <li><a href="#contact" class="active">Contact us</a></li>
+      </ul>
+    </nav>
+    <div class="flex gap-2 md:gap-4 items-center">
+      <a href="" class="btn">Register Interest</a>
+
+      <svg class="size-8 cursor-pointer dark:text-white" id="button" xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 24 24" fill="currentColor">
+        <path
+          d="M10 7C10 10.866 13.134 14 17 14C18.9584 14 20.729 13.1957 21.9995 11.8995C22 11.933 22 11.9665 22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C12.0335 2 12.067 2 12.1005 2.00049C10.8043 3.27098 10 5.04157 10 7ZM4 12C4 16.4183 7.58172 20 12 20C15.0583 20 17.7158 18.2839 19.062 15.7621C18.3945 15.9187 17.7035 16 17 16C12.0294 16 8 11.9706 8 7C8 6.29648 8.08133 5.60547 8.2379 4.938C5.71611 6.28423 4 8.9417 4 12Z">
+        </path>
+      </svg>
+
+      <svg class="size-8 dark:text-white md:hidden" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+        fill="currentColor">
+        <path d="M3 4H21V6H3V4ZM9 11H21V13H9V11ZM3 18H21V20H3V18Z"></path>
+      </svg>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="home" class="bg-[#FAFAFA] dark:bg-gray-800 pt-20">
+    <section class="container mx-auto grid grid-cols-1 md:grid-cols-2 py-5 md:py-10 gap-4 md:gap-8">
+      <div class="p-8 md:p-4 order-2 md:order-1">
+        <h2 class="text-[#2D3142] font-bold mt-4 dark:text-white">Discover <span class="text-primary-0">-</span>
+          Interact <span class="text-primary-0">-</span> Engage</h2>
+        <h1 class="text-[64px] text-[#072125] font-bold dark:text-gray-100">Google <br>
+          <span class="text-primary-0 underline underline-offset-[13px]">IT Support</span> <br> Certificate
+        </h1>
+        <p class="text-[#072125] text-lg my-8 dark:text-white">This is your path to a career in IT. In this program,
+          you’ll learn
+          in-demand skills with no degree
+          or experience
+          required.</p>
+        <div class="flex gap-8 mb-8">
+          <div class="flex flex-col items-center">
+            <h1 class="number">438</h1>
+            <p class="para">Videos</p>
+          </div>
+          <div class="flex flex-col items-center">
+            <h1 class="number">151</h1>
+            <p class="para">Readings</p>
+          </div>
+          <div class="flex flex-col items-center">
+            <h1 class="number">108</h1>
+            <p class="para">Quizzes</p>
+          </div>
+          <div class="flex flex-col items-center">
+            <h1 class="number">108</h1>
+            <p class="para">Exercises</p>
+          </div>
+          <div class="flex flex-col items-center">
+            <h1 class="number">4</h1>
+            <p class="para">Assigments</p>
+          </div>
+        </div>
+
+        <div class="flex gap-4">
+          <a href="#"
+            class="text-lg text-white py-4 px-8 bg-primary-0 rounded-lg hover:bg-[#cf352a] transition-all duration-200">Sign
+            up</a>
+          <a href="#"
+            class="text-lg text-[#072125] py-4 px-8 bg-white rounded-lg border hover:bg-[#cf352a] hover:text-white transition-all duration-200">Learn
+            more</a>
+        </div>
+      </div>
+      <div class="mx-auto order-1 md:order-2">
+        <img src="./imgs/hero.png" alt="" class="object-cover">
+      </div>
+    </section>
+  </section>
+
+  <!-- Brand Section -->
+  <section class="dark:bg-slate-400">
+    <section
+      class="container mx-auto grid grid-cols-3 md:grid-cols-8 items-center justify-items-center p-4 dark:bg-slate-400">
+      <div class="p-4 md:col-span-2">
+        <h4 class="text-sm md:text-lg dark:text-black">Pave your path to career success by gaining a professional Google
+          certificate with
+          the
+          support
+          of C4U</h4>
+      </div>
+      <img src="./imgs/line.png" alt="">
+      <div class="p-4">
+        <img src="./imgs/hero-brand-1.png" alt="" class="w-full object-cover">
+      </div>
+      <img src="./imgs/line.png" alt="" class="hidden md:block">
+      <div class="p-2">
+        <img src="./imgs/hero-brand-2.png" alt="" class="w-full object-cover">
+      </div>
+      <img src="./imgs/line.png" alt="">
+      <div class="p-4">
+        <img src="./imgs/hero-brand-3.png" alt="" class="w-full object-cover">
+      </div>
+    </section>
+  </section>
+
+  <!-- Learn Section -->
+  <section class="bg-[#FAFAFA] dark:bg-gray-600">
+    <section class="container mx-auto py-14 md:py-20 grid grid-cols-2 gap-6">
+      <section class="col-span-2 md:col-span-1 mb-4">
+        <div class="p-6 bg-white rounded-3xl md:py-16 shadow-lg dark:bg-gray-800">
+          <h1 class="text-2xl font-semibold">What you will learn</h1>
+
+          <div class="w-full h-[2px] bg-secondary-0 my-6"></div>
+
+          <div class="md:px-10">
+            <div class="flex flex-col gap-4 md:gap-16">
+              <div class="grid grid-cols-10">
+                <img src="./imgs/ul.png" alt="" class="col-span-1">
+                <div class=""></div>
+                <h1 class="text-lg text-[#181818] col-span-8 dark:text-gray-100">Gain skills required to succeed in an
+                  entry-level IT job
+                </h1>
+              </div>
+              <div class="grid grid-cols-10">
+                <img src="./imgs/ul.png" alt="" class="col-span-1">
+                <div class=""></div>
+                <h1 class="text-lg text-[#181818] col-span-8 dark:text-gray-100">Learn to perform day-to-day IT support
+                  tasks including
+                  computer assembly, wireless networking, installing programs, and
+                  customer service</h1>
+              </div>
+              <div class="grid grid-cols-10">
+                <img src="./imgs/ul.png" alt="" class="col-span-1">
+                <div class=""></div>
+                <h1 class="text-lg text-[#181818] col-span-8 dark:text-gray-100">Learn how to provide end-to-end
+                  customer support, ranging
+                  from identifying problems to troubleshooting and debugging</h1>
+              </div>
+              <div class="grid grid-cols-10">
+                <img src="./imgs/ul.png" alt="" class="col-span-1">
+                <div class=""></div>
+                <h1 class="text-lg text-[#181818] col-span-8 dark:text-gray-100">Learn to use systems including Linux,
+                  Domain Name Systems,
+                  Command-Line Interface, and Binary Code</h1>
+              </div>
+            </div>
+          </div>
+      </section>
+
+      <section class="col-span-2 md:col-span-1">
+        <div class="p-6 bg-white rounded-3xl py-8 shadow-lg dark:bg-gray-800">
+          <img src="./imgs/IT_image.png" alt="" class="w-full object-cover rounded-xl">
+
+          <h1 class="text-2xl font-semibold">Skills you will gain</h1>
+
+          <div class="w-full h-[2px] bg-secondary-0 my-6"></div>
+
+          <div class="flex flex-wrap">
+            <div class="tag">Debugging</div>
+            <div class="tag">Customer Service</div>
+            <div class="tag">Customer Support</div>
+            <div class="tag">Domain Name System (DNS)</div>
+            <div class="tag">Network Model</div>
+            <div class="tag">Linux</div>
+            <div class="tag">Encryption Algorithms and Techniques</div>
+            <div class="tag">Network Protocols</div>
+            <div class="tag">Ipv4</div>
+            <div class="tag">Troubleshooting</div>
+            <div class="tag">Binary Code</div>
+            <div class="tag">Cloud Computing</div>
+          </div>
+      </section>
+    </section>
+
+    <section class="container mx-auto py-10 md:py-20 grid grid-cols-2 gap-6">
+      <section class="col-span-2 md:col-span-1 mb-4">
+        <div class="p-6 bg-white rounded-3xl py-8 shadow-lg dark:bg-gray-800">
+          <h1 class="text-2xl font-semibold">Jobs Assocaited with Certificate</h1>
+
+          <div class="w-full h-[2px] bg-secondary-0 my-6"></div>
+
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
+            <div class="flex flex-col gap-8">
+              <div class="flex gap-4 font-semibold text-[#181818] text-lg dark:text-gray-100">
+                <div class="w-10 h-10 bg-white rounded-full flex items-center justify-center"><img
+                    src="./imgs/Arrow.png" alt=""></div>
+                Database administrator
+              </div>
+              <div class="flex gap-4 font-semibold text-[#181818] text-lg dark:text-gray-100">
+                <div class="w-10 h-10 bg-white rounded-full flex items-center justify-center"><img
+                    src="./imgs/Arrow.png" alt=""></div>
+                Tech support specialist
+              </div>
+              <div class="flex gap-4 font-semibold text-[#181818] text-lg dark:text-gray-100">
+                <div class="w-10 h-10 bg-white rounded-full flex items-center justify-center"><img
+                    src="./imgs/Arrow.png" alt=""></div>
+                IT specialist
+              </div>
+              <div class="flex gap-4 font-semibold text-[#181818] text-lg dark:text-gray-100">
+                <div class="w-10 h-10 bg-white rounded-full flex items-center justify-center"><img
+                    src="./imgs/Arrow.png" alt=""></div>
+                Systems analyst
+              </div>
+              <div class="flex gap-4 font-semibold text-[#181818] text-lg dark:text-gray-100">
+                <div class="w-10 h-10 bg-white rounded-full flex items-center justify-center"><img
+                    src="./imgs/Arrow.png" alt=""></div>
+                Network engineer
+              </div>
+            </div>
+            <div class="flex flex-col gap-8">
+              <div class="flex gap-4 font-semibold text-[#181818] text-lg dark:text-gray-100">
+                <div class="w-10 h-10 bg-white rounded-full flex items-center justify-center"><img
+                    src="./imgs/Arrow.png" alt=""></div>
+                Help desk technician
+              </div>
+              <div class="flex gap-4 font-semibold text-[#181818] text-lg dark:text-gray-100">
+                <div class="w-10 h-10 bg-white rounded-full flex items-center justify-center"><img
+                    src="./imgs/Arrow.png" alt=""></div>
+                IT support spcialist
+              </div>
+              <div class="flex gap-4 font-semibold text-[#181818] text-lg dark:text-gray-100">
+                <div class="w-10 h-10 bg-white rounded-full flex items-center justify-center"><img
+                    src="./imgs/Arrow.png" alt=""></div>
+                IT technician
+              </div>
+              <div class="flex gap-4 font-semibold text-[#181818] text-lg dark:text-gray-100">
+                <div class="w-10 h-10 bg-white rounded-full flex items-center justify-center"><img
+                    src="./imgs/Arrow.png" alt=""></div>
+                Computer user specialist
+              </div>
+              <div class="flex gap-4 font-semibold text-[#181818] text-lg dark:text-gray-100">
+                <div class="w-10 h-10 bg-white rounded-full flex items-center justify-center"><img
+                    src="./imgs/Arrow.png" alt=""></div>
+                IT assitant
+              </div>
+            </div>
+          </div>
+      </section>
+
+      <section class="col-span-2 md:col-span-1">
+        <img src="./imgs/IT-2.png" alt="" class="w-full object-cover">
+      </section>
+    </section>
+  </section>
+
+  <!-- Certificate Section -->
+  <section class="dark:bg-gray-800">
+    <section class="container mx-auto py-8 relative">
+      <h1 class="text-[#2D3142] text-[18px] md:text-[50px] font-bold mb-8 md:mb-14 dark:text-gray-100">There are 5
+        Courses in this <br>
+        Professional
+        Certificate
+      </h1>
+      <div class="flex gap-4 md:gap-10">
+        <div class="tag-2">Course 1</div>
+        <div class="tag-2">Course 2</div>
+        <div class="tag-2">Course 3</div>
+        <div class="tag-2">Course 4</div>
+        <div class="tag-2">Course 5</div>
+      </div>
+      <div class="w-full h-[2px] bg-secondary-0 my-10"></div>
+
+      <img src="./imgs/Certificate.png" alt="" class="w-40 md:w-80 object-cover absolute top-0 right-0">
+    </section>
+  </section>
+
+
+  <!-- Curse Section -->
+  <section class="bg-[#FAFAFA] dark:bg-gray-600">
+    <section class="container mx-auto">
+      <div class="py-32 md:py-64 relative">
+        <img src="./imgs/Course-1.png" alt="" class="w-full object-cover">
+        <img src="./imgs/ConnectorVector-1.png" alt="" class="absolute bottom-0 md:left-52">
+      </div>
+      <img src="./imgs/Course-1.png" alt="" class="w-full object-cover">
+      <img src="./imgs/ConnectorVector-2.png" alt="" class="mx-auto object-cover">
+      <img src="./imgs/Course-1.png" alt="" class="w-full object-cover">
+      <img src="./imgs/ConnectorVector-3.png" alt="" class="mx-auto object-cover">
+      <img src="./imgs/Course-1.png" alt="" class="w-full object-cover">
+      <img src="./imgs/ConnectorVector-4.png" alt="" class="mx-auto object-cover">
+      <img src="./imgs/Course-1.png" alt="" class="w-full object-cover">
+    </section>
+  </section>
+
+  <!-- Quote Section -->
+  <section class="py-20 md:py-12 px-16 md:px-60 bg-[url(./imgs/quote-bg.png)] bg-no-repeat bg-cover">
+    <div class="grid grid-cols-1 md:grid-cols-2">
+      <div class="flex flex-col p-4 md:p-10 bg-white rounded-md dark:bg-gray-800">
+        <img src="./imgs/Quote.png" alt="" class="size-10">
+        <h1 class="text-[#072125] text-xl md:text-[26px] font-bold my-6 md:my-10 dark:text-gray-100">I worked in retail
+          and needed to make
+          a change. The
+          certificate
+          is really designed for you to go at your own pace. This
+          is something that anybody can do</h1>
+
+        <h2 class="text-[#F9CCC7] text-base md:text-lg font-bold">Daniel, IT Support Specialist at Central Community
+          College and
+          Google IT Support Certificate graduate</h2>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer Section -->
+  <footer class="border-b border-[#20484F] dark:border-white">
+    <div class="container mx-auto h-[400px] md:h-[260px] grid grid-cols-3 md:grid-cols-6">
+      <div class="p-4 md:p-12 flex justify-between flex-col">
+        <div class="p-2 rounded-md bg-white">
+          <img src="./imgs/logo.png" alt="" class="w-full object-cover mb-2">
+        </div>
+        <a href="#" class="footer-link">Level39</a>
+        <a href="#" class="footer-link">One Canada Square</a>
+        <a href="#" class="footer-link">Canary Wharf</a>
+        <a href="#" class="footer-link">London</a>
+        <a href="#" class="footer-link">E14 5AB</a>
+      </div>
+      <div class=""></div>
+      <div class="p-4 md:p-12 flex justify-between flex-col">
+        <a href="#home" class="text-[#20484F] text-lg font-bold dark:text-gray-200">Home</a>
+        <a href="#" class="footer-link">Collaborations</a>
+        <a href="#" class="footer-link">Statistics</a>
+        <a href="#" class="footer-link">How It Works</a>
+        <a href="#" class="footer-link">Testimonials</a>
+      </div>
+      <div class="p-4 md:p-12 flex justify-between flex-col">
+        <a href="#about" class="text-[#20484F] text-lg font-bold dark:text-gray-200">About Us</a>
+        <a href="#" class="footer-link">Who We Are</a>
+        <a href="#" class="footer-link">Mission statement</a>
+        <a href="#" class="footer-link">Works</a>
+        <a href="#" class="footer-link">The Team</a>
+      </div>
+      <div class="p-4 md:p-12 flex justify-between flex-col">
+        <a href="#upskill" class="text-[#20484F] text-lg font-bold dark:text-gray-200">Upskill</a>
+        <a href="#" class="footer-link">It Support</a>
+        <a href="#" class="footer-link">Project Managment</a>
+        <a href="#" class="footer-link">Data Analysts</a>
+        <a href="#" class="footer-link">Ux Design</a>
+      </div>
+      <div class="p-4 md:p-12 flex justify-between flex-col">
+        <a href="#contact" class="text-[#20484F] text-lg font-bold dark:text-gray-200">Contact Us</a>
+        <a href="#" class="footer-link">Your message</a>
+        <a href="#" class="footer-link">Email</a>
+        <a href="#" class="footer-link">Phone number</a>
+        <a href="#" class="footer-link">Linkedin</a>
+      </div>
+    </div>
+  </footer>
+
+  <div class="py-8 text-center">Copyright 2022 Creatives For You LTD</div>
+
+
+  <script>
+    const darkClass = document.getElementById("darkClass");
+    const button = document.getElementById("button");
+
+    button.addEventListener("click", function () {
+      darkClass.classList.toggle("dark");
+    });
+  </script>
+</body>
+
+</html>
