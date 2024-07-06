@@ -12,7 +12,8 @@
 
 <body class="font-plusJakarta dark:bg-gray-600 dark:text-white">
   <!-- Header Section -->
-  <header class="fixed w-full bg-white h-20 px-3 md:px-16 z-10 flex justify-between items-center dark:bg-gray-600">
+  <header
+    class="fixed w-full bg-white h-20 px-3 md:px-4 lg:px-12 z-10 flex justify-between items-center dark:bg-gray-600">
     <a href="./index.html" class="p-2 rounded-md bg-white">
       <img src="./imgs/logo.png" alt="Logo">
     </a>
@@ -55,7 +56,7 @@
           in-demand skills with no degree
           or experience
           required.</p>
-        <div class="flex gap-8 mb-8">
+        <div class="flex flex-wrap gap-8 mb-8">
           <div class="flex flex-col items-center">
             <h1 class="number">438</h1>
             <p class="para">Videos</p>
@@ -98,7 +99,8 @@
     <section
       class="container mx-auto grid grid-cols-3 md:grid-cols-8 items-center justify-items-center p-4 dark:bg-slate-400">
       <div class="p-4 md:col-span-2">
-        <h4 class="text-sm md:text-lg dark:text-black">Pave your path to career success by gaining a professional Google
+        <h4 class="text-sm md:text-base lg:text-lg dark:text-black">Pave your path to career success by gaining a
+          professional Google
           certificate with
           the
           support
@@ -121,15 +123,15 @@
 
   <!-- Learn Section -->
   <section class="bg-[#FAFAFA] dark:bg-gray-600">
-    <section class="container mx-auto py-14 md:py-20 grid grid-cols-2 gap-6">
-      <section class="col-span-2 md:col-span-1 mb-4">
-        <div class="p-6 bg-white rounded-3xl md:py-16 shadow-lg dark:bg-gray-800">
+    <section class="container mx-auto py-14 lg:py-16 xl:py-20 lg:grid lg:grid-cols-2 gap-6">
+      <section class="mb-8">
+        <div class="p-6 bg-white rounded-3xl md:py-10 lg:py-16 shadow-lg dark:bg-gray-800">
           <h1 class="text-2xl font-semibold">What you will learn</h1>
 
           <div class="w-full h-[2px] bg-secondary-0 my-6"></div>
 
-          <div class="md:px-10">
-            <div class="flex flex-col gap-4 md:gap-16">
+          <div class="md:px-4 lg:px-10">
+            <div class="flex flex-col gap-4 md:gap-10 lg:gap-[35px] xl:gap-16">
               <div class="grid grid-cols-10">
                 <img src="./imgs/ul.png" alt="" class="col-span-1">
                 <div class=""></div>
@@ -161,9 +163,10 @@
               </div>
             </div>
           </div>
+        </div>
       </section>
 
-      <section class="col-span-2 md:col-span-1">
+      <section class="">
         <div class="p-6 bg-white rounded-3xl py-8 shadow-lg dark:bg-gray-800">
           <img src="./imgs/IT_image.png" alt="" class="w-full object-cover rounded-xl">
 
@@ -188,8 +191,8 @@
       </section>
     </section>
 
-    <section class="container mx-auto py-10 md:py-20 grid grid-cols-2 gap-6">
-      <section class="col-span-2 md:col-span-1 mb-4">
+    <section class="container mx-auto py-10 lg:py-20 lg:grid lg:grid-cols-2 gap-6">
+      <section class="mb-8">
         <div class="p-6 bg-white rounded-3xl py-8 shadow-lg dark:bg-gray-800">
           <h1 class="text-2xl font-semibold">Jobs Assocaited with Certificate</h1>
 
@@ -253,7 +256,7 @@
           </div>
       </section>
 
-      <section class="col-span-2 md:col-span-1">
+      <section class="">
         <img src="./imgs/IT-2.png" alt="" class="w-full object-cover">
       </section>
     </section>
@@ -262,32 +265,33 @@
   <!-- Certificate Section -->
   <section class="dark:bg-gray-800">
     <section class="container mx-auto py-8 relative">
-      <h1 class="text-[#2D3142] text-[18px] md:text-[50px] font-bold mb-8 md:mb-14 dark:text-gray-100">There are 5
+      <h1 class="text-[#2D3142] text-[18px] md:text-[30px] lg:text-[50px] font-bold mb-8 md:mb-14 dark:text-gray-100">
+        There are 5
         Courses in this <br>
         Professional
         Certificate
       </h1>
-      <div class="flex gap-4 md:gap-10">
-        <div class="tag-2">Course 1</div>
-        <div class="tag-2">Course 2</div>
-        <div class="tag-2">Course 3</div>
-        <div class="tag-2">Course 4</div>
-        <div class="tag-2">Course 5</div>
+      <div class="grid grid-cols-4">
+        <div class="col-span-3 flex flex-wrap gap-4 md:ga-6 lg:gap-10">
+          <div class="tag-2">Course 1</div>
+          <div class="tag-2">Course 2</div>
+          <div class="tag-2">Course 3</div>
+          <div class="tag-2">Course 4</div>
+          <div class="tag-2">Course 5</div>
+        </div>
       </div>
+
       <div class="w-full h-[2px] bg-secondary-0 my-10"></div>
 
       <img src="./imgs/Certificate.png" alt="" class="w-40 md:w-80 object-cover absolute top-0 right-0">
     </section>
   </section>
 
-
   <!-- Curse Section -->
   <section class="bg-[#FAFAFA] dark:bg-gray-600">
-    <section class="container mx-auto">
-      <div class="py-32 md:py-64 relative">
-        <img src="./imgs/Course-1.png" alt="" class="w-full object-cover">
-        <img src="./imgs/ConnectorVector-1.png" alt="" class="absolute bottom-0 md:left-52">
-      </div>
+    <section class="container mx-auto pt-16">
+      <img src="./imgs/Course-1.png" alt="" class="w-full object-cover">
+      <img src="./imgs/ConnectorVector-1.png" alt="" class="mx-auto object-cover">
       <img src="./imgs/Course-1.png" alt="" class="w-full object-cover">
       <img src="./imgs/ConnectorVector-2.png" alt="" class="mx-auto object-cover">
       <img src="./imgs/Course-1.png" alt="" class="w-full object-cover">
@@ -299,8 +303,8 @@
   </section>
 
   <!-- Quote Section -->
-  <section class="py-20 md:py-12 px-16 md:px-60 bg-[url(./imgs/quote-bg.png)] bg-no-repeat bg-cover">
-    <div class="grid grid-cols-1 md:grid-cols-2">
+  <section class="py-20 md:py-12 px-16 md:px-28 lg:px-40 xl:px-60 bg-[url(./imgs/quote-bg.png)] bg-no-repeat bg-cover">
+    <div class="grid grid-cols-1 lg:grid-cols-2">
       <div class="flex flex-col p-4 md:p-10 bg-white rounded-md dark:bg-gray-800">
         <img src="./imgs/Quote.png" alt="" class="size-10">
         <h1 class="text-[#072125] text-xl md:text-[26px] font-bold my-6 md:my-10 dark:text-gray-100">I worked in retail
@@ -319,7 +323,7 @@
 
   <!-- Footer Section -->
   <footer class="border-b border-[#20484F] dark:border-white">
-    <div class="container mx-auto h-[400px] md:h-[260px] grid grid-cols-3 md:grid-cols-6">
+    <div class="container mx-auto h-[400px] lg:h-[320px] xl:h-[260px] grid grid-cols-3 md:grid-cols-5 lg:grid-cols-6">
       <div class="p-4 md:p-12 flex justify-between flex-col">
         <div class="p-2 rounded-md bg-white">
           <img src="./imgs/logo.png" alt="" class="w-full object-cover mb-2">
@@ -330,7 +334,7 @@
         <a href="#" class="footer-link">London</a>
         <a href="#" class="footer-link">E14 5AB</a>
       </div>
-      <div class=""></div>
+      <div class="hidden lg:block"></div>
       <div class="p-4 md:p-12 flex justify-between flex-col">
         <a href="#home" class="text-[#20484F] text-lg font-bold dark:text-gray-200">Home</a>
         <a href="#" class="footer-link">Collaborations</a>

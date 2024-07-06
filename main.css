@@ -24,12 +24,12 @@
 }
 
 .tag {
-  @apply text-[#181818] text-sm md:text-lg py-2 px-2 m-2 md:m-2.5 border border-primary-0 rounded-full cursor-pointer hover:bg-secondary-0 hover:scale-105 transition-all dark:text-gray-100 dark:hover:text-black;
+  @apply text-[#181818] text-sm md:text-base lg:text-lg py-2 px-2 m-2 md:m-2.5 border border-primary-0 rounded-full cursor-pointer hover:bg-secondary-0 hover:scale-105 transition-all dark:text-gray-100 dark:hover:text-black;
 }
 .tag-2 {
   @apply text-[#2D3142] text-sm md:text-lg py-2 px-4 md:px-10 border border-[#232323] rounded-full cursor-pointer hover:bg-[#00FF84] transition-all dark:text-gray-100 dark:border-gray-100;
 }
 
 .footer-link {
-  @apply text-[#20484F] text-base transition-all duration-500 hover:underline dark:text-gray-100;
+  @apply text-[#20484F] text-sm lg:text-base transition-all duration-500 hover:underline dark:text-gray-100;
 }
